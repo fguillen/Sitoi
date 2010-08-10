@@ -1,0 +1,27 @@
+/* grid.css */
+
+#grid{
+  width: 980px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -490px;
+  background: url(../img/bg-grid-980.gif) repeat-y 0 0;
+}
+
+#grid div.horiz{
+  height: 17px;
+  border-bottom: 1px dotted #AAA;
+  margin: 0;
+  padding: 0;
+}
+
+#grid.grid-1 {
+  background: url(../img/bg-grid-980.gif) repeat-y 0 0;
+}
+
+#grid.grid-2{
+  background: url(../img/bg-grid-660.gif) repeat-y 160px 0;
+  padding: 0 160px;
+  width: 660px;
+}

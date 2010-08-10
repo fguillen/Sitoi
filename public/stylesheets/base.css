@@ -1,0 +1,107 @@
+/* master.css */
+
+html { font-size:100.01%; }
+
+body {
+  font-size: 62.5%;
+  line-height: 1.8em;
+  font-size: x-small;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "lucida grande", "helvetica", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:bold;
+  color: #FFF;
+}
+
+h1 {font-size:1.8em;font-weight:normal;}
+h2 {font-size:1.8em;}
+h3 {font-size:1.4em;}
+h4 {font-size:1.2em;}
+h5 {font-size:1.2em;}
+h6 {font-size:1em;}
+
+p, ul, ol {
+  font-size: 1.2em; 
+  margin: 1.5em 0;
+}
+
+small p {
+  margin: 1.8em 0;
+  line-height: 1.8em;
+}
+
+ul, ol {
+  margin-left: 1.5em;
+}
+
+ul { 
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+strong { 
+  font-weight: bold; 
+}
+
+em, dfn { 
+  font-style: italic; 
+}
+
+del { 
+  text-decoration: line-through; 
+}
+
+sup, sub {
+  line-height:0;
+}
+
+abbr, acronym {
+  border-bottom:1px dotted #000;
+}
+
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+dl {
+  margin: 1.5em 0;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+table {
+  margin: 1.5em 0;
+  width: 100%;
+}
+
+form, fieldset { 
+  display: block; 
+}
+
+label { 
+  font-weight: bold; 
+  display: block;
+}
+
+legend {
+  font-size: 1.2em;
+}
+
+a { 
+  color: #00F; 
+  text-decoration: none; 
+}
+
+a:focus, a:hover { 
+  text-decoration: underline;
+}

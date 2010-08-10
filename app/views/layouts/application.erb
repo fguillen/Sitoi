@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-
+<html class="no-js">
 <head>
+  <!--
+
+   ______     __     ______   ______     __    
+  /\  ___\   /\ \   /\__  _\ /\  __ \   /\ \   
+  \ \___  \  \ \ \  \/_/\ \/ \ \ \/\ \  \ \ \  
+   \/\_____\  \ \_\    \ \_\  \ \_____\  \ \_\ 
+    \/_____/   \/_/     \/_/   \/_____/   \/_/ 
+    
+  Sitoi, el (sencillo) gestor espacial
+    
+  -->
   <meta charset="utf-8">
   <title>Sitoi — Gestión de espacios</title>
+  <%= javascript_include_tag "jquery-1.4.2.js", "hashgrid.js", "modernizr.js" %>
+  <%= stylesheet_link_tag "screen.css" %>
+  <!--[if IE]>
+    <%= javascript_include_tag "html5.js" %>
+  <![endif]-->
 </head>
-
 <body>
-
 <div id="sitoi">
 <%= yield %>
 </div>
-
 </body>
+</html>
