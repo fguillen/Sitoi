@@ -4,7 +4,7 @@ body {
 
 #sitoi {
   margin: 0 auto;
-  margin-top: 4.4em;
+  margin-top: 9em;
   padding: 0 2em;
   width: 94em;
 }
@@ -24,7 +24,6 @@ body {
 .aside p {
   font-size: 1.4em;
   margin: 1.6em 0;
-  margin-top: 0.8em;
 }
 
 .newsletter {
@@ -35,7 +34,7 @@ body {
   border: 1px solid #EEE;
   width: 42em;
   padding: 2em;
-  margin-top: 36em;
+  margin-top: 34em;
 }
 
 .newsletter p {
@@ -43,16 +42,16 @@ body {
   margin: 0;
 }
 
-.newsletter form p {
-  margin: 0;
+.newsletter form {
+  margin-top: 1.6em;
 }
 
 .footer { 
-  clear: both; 
-  margin-top: 2em; 
+  clear: both;
+  text-align: center;
 }
 
 .footer p { 
-  font-size: 1.4em; 
-  margin-top: 1.6em;
+  font-size: 1.4em;
+  margin: 1.8em; 
 }
