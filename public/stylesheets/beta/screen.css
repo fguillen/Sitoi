@@ -1,6 +1,6 @@
 /* screen.css */
 
 @import "reset.css";
+@import "grid.css";
 @import "base.css";
 @import "master.css";
-@import "grid.css";

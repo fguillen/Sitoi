@@ -1,0 +1,45 @@
+#sitoi {
+  margin: 0 auto;
+  margin-top: 6em;
+  padding: 0 2em;
+  width: 94em;
+}
+
+#join {
+  background: #EEE;
+  display: block;
+  overflow: hidden;
+  float: left;  
+  width: 46em;
+  margin-right: 2em;
+  margin-top: 42em;
+}
+
+#join p {
+  margin: 1.4em;
+}
+
+#about {
+  display: block;
+  overflow: hidden;
+  width: 46em;
+  margin-bottom: 2em;
+}
+
+#about aside header {
+  margin-bottom: 2em;
+}
+
+#about aside section {
+  padding-left: 14em;
+}
+
+#about aside section p {
+  font-size: 1.2em;
+  margin: 1.72em 0;
+  margin-top: 0.86em;
+}
+
+footer { clear: both; margin-top: 2em; }
+
+footer p { font-size: 1.2em; margin-top: 1.72em; }
