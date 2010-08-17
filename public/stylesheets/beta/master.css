@@ -1,45 +1,58 @@
+body {
+  background: #FEFEFE;
+}
+
 #sitoi {
   margin: 0 auto;
-  margin-top: 6em;
+  margin-top: 4.4em;
   padding: 0 2em;
   width: 94em;
 }
 
-#join {
-  background: #EEE;
-  display: block;
-  overflow: hidden;
-  float: left;  
-  width: 46em;
-  margin-right: 2em;
-  margin-top: 42em;
-}
-
-#join p {
-  margin: 1.4em;
-}
-
-#about {
+.content {
+  float: right;
   display: block;
   overflow: hidden;
   width: 46em;
   margin-bottom: 2em;
 }
 
-#about aside header {
-  margin-bottom: 2em;
-}
-
-#about aside section {
+.aside {
   padding-left: 14em;
 }
 
-#about aside section p {
-  font-size: 1.2em;
-  margin: 1.72em 0;
-  margin-top: 0.86em;
+.aside p {
+  font-size: 1.4em;
+  margin: 1.6em 0;
+  margin-top: 0.8em;
 }
 
-footer { clear: both; margin-top: 2em; }
+.newsletter {
+  float: left; 
+  display: block;
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+  border: 1px solid #EEE;
+  width: 42em;
+  padding: 2em;
+  margin-top: 36em;
+}
 
-footer p { font-size: 1.2em; margin-top: 1.72em; }
+.newsletter p {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.newsletter form p {
+  margin: 0;
+}
+
+.footer { 
+  clear: both; 
+  margin-top: 2em; 
+}
+
+.footer p { 
+  font-size: 1.4em; 
+  margin-top: 1.6em;
+}
