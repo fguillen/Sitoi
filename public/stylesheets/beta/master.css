@@ -1,11 +1,41 @@
+html { font-size:100.01%; }
+
 body {
+  font-size: 62.5%;
+  line-height: 2.2em;
+  font-size: x-small;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "ff-dagny-web-pro-1","ff-dagny-web-pro-2", "arial", "helvetica", "arial", "sans-serif";
   background: #FEFEFE;
 }
 
+h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; }
+
+h1 { font-size: 2.2em; margin-bottom: 1em; }
+
+h2 { font-size: 1.8em; margin: 0.66em 0; }
+
+h3 { font-size: 2em; margin: 1.2em 0; }
+
+p, ul, ol { font-size: 1.8em; margin: 0; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+form, fieldset { display: block; }
+
+label { font-weight: bold; display: block; }
+
+a { color: #666; text-decoration: none; }
+
+a:focus, a:hover { text-decoration: underline; }
+
 #sitoi {
   margin: 0 auto;
-  margin-top: 9em;
-  padding: 0 2em;
+  padding: 4.4em 2em 0 2em;
   width: 94em;
 }
 
@@ -14,44 +44,55 @@ body {
   display: block;
   overflow: hidden;
   width: 46em;
-  margin-bottom: 2em;
 }
 
 .aside {
+  overflow: hidden;
   padding-left: 14em;
+  margin: 2.2em 0 -3em 0;
 }
 
 .aside p {
-  font-size: 1.4em;
-  margin: 1.6em 0;
+  font-size: 1.6em;
+  margin-bottom: 2em;
 }
 
 .newsletter {
   float: left; 
   display: block;
   overflow: hidden;
-  -webkit-border-radius: 6px;
-  border: 1px solid #EEE;
-  width: 42em;
-  padding: 2em;
-  margin-top: 34em;
+  width: 30em;
+  margin-top: 46.2em;
+  padding: 2em 2em 2em 14em;
+  background: rgba(0,0,0,0.05);
+  -webkit-border-radius: 4px;
+}
+
+.newsletter form {
+  margin: 2.4em 0 0 0;
+}
+
+.newsletter .text {
+  border: 1px solid #CCC;
+  padding: 0.4em;
+  font-size: 0.8em;
+  width: 16em;
+  margin-right: 0.4em;
+  -webkit-border-radius: 4px;
 }
 
 .newsletter p {
   font-size: 1.6em;
-  margin: 0;
 }
 
-.newsletter form {
-  margin-top: 1.6em;
-}
-
-.footer { 
+.footer {
   clear: both;
+  display: block;
+  overflow: hidden;
   text-align: center;
 }
 
-.footer p { 
-  font-size: 1.4em;
-  margin: 1.8em; 
+.footer p {
+  font-size: 1.2em;
+  padding: 1.92em 0 0 0;
 }
