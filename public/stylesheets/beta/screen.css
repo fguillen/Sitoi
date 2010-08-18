@@ -11,8 +11,8 @@ body {
   font-style: normal;
   font-weight: normal;
   font-family: "ff-dagny-web-pro-1","ff-dagny-web-pro-2", "arial", "helvetica", "arial", "sans-serif";
-  background: #FFF;
-  color: #363943;
+  background: #FEFFFE;
+  color: #333;
 }
 
 h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; }
@@ -33,7 +33,7 @@ form, fieldset { display: block; }
 
 label { font-weight: bold; display: block; }
 
-a { color: #8FBFA1; font-weight: bold; text-decoration: none; }
+a { color: #B00929; font-weight: bold; text-decoration: none; }
 
 a:focus, a:hover { text-decoration: underline; }
 
@@ -71,7 +71,7 @@ a:focus, a:hover { text-decoration: underline; }
   margin-top: 44em;
   padding: 1.68em 2em 1.68em 14em;
   background: url(/images/beta/newsletter.png) 0 0 no-repeat;
-  background-color: rgba(0,0,0,0.08);
+  background-color: #90CFDD;
   -webkit-border-radius: 4px;
 }
 
@@ -80,13 +80,17 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .newsletter .text {
-  border: 1px solid #FFF;
+  background-color: rgba(0,0,0,0.15);
+  border: 1px solid rgba(0,0,0,0.05);
   padding: 0.48em;
   font-size: 0.9em;
   width: 14em;
   margin-right: 0.4em;
+  color: #FFF;
   -webkit-border-radius: 4px;
 }
+
+.newsletter input::-webkit-input-placeholder { color: rgba(255,255,255,0.75); }
 
 .newsletter .submit {
   border: 1px solid #FFF;
