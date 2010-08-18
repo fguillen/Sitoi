@@ -1,5 +1,115 @@
-/* screen.css */
-
 @import "reset.css";
 @import "grid.css";
-@import "master.css";
+
+html { font-size:100.01%; }
+
+body {
+  font-size: 62.5%;
+  line-height: 2.2em;
+  font-size: x-small;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "ff-dagny-web-pro-1","ff-dagny-web-pro-2", "arial", "helvetica", "arial", "sans-serif";
+  background: #FFF;
+  color: #363943;
+}
+
+h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; }
+
+h1 { font-size: 2.2em; margin-bottom: 1em; }
+
+h2 { font-size: 1.8em; margin: 0.66em 0; }
+
+h3 { font-size: 2em; margin: 1.2em 0; }
+
+p, ul, ol { font-size: 1.8em; margin: 0; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+form, fieldset { display: block; }
+
+label { font-weight: bold; display: block; }
+
+a { color: #8FBFA1; font-weight: bold; text-decoration: none; }
+
+a:focus, a:hover { text-decoration: underline; }
+
+#sitoi {
+  margin: 0 auto;
+  padding: 6.6em 2em 0 2em;
+  width: 94em;
+  background: url(/images/beta/logo.png) 2em 0 no-repeat;
+}
+
+.content {
+  float: right;
+  display: block;
+  overflow: hidden;
+  width: 46em;
+}
+
+.aside {
+  overflow: hidden;
+  padding-left: 14em;
+  margin: 2.2em 0 -3em 0;
+  background: url(/images/beta/tutorial.png) 0 0 no-repeat;
+}
+
+.aside p {
+  font-size: 1.4em;
+  margin-bottom: 2.4em;
+}
+
+.newsletter {
+  float: left; 
+  display: block;
+  overflow: hidden;
+  width: 30em;
+  margin-top: 44em;
+  padding: 1.68em 2em 1.68em 14em;
+  background: url(/images/beta/newsletter.png) 0 0 no-repeat;
+  background-color: rgba(0,0,0,0.08);
+  -webkit-border-radius: 4px;
+}
+
+.newsletter form {
+  margin: 1.72em 0 0 0;
+}
+
+.newsletter .text {
+  border: 1px solid #FFF;
+  padding: 0.48em;
+  font-size: 0.9em;
+  width: 14em;
+  margin-right: 0.4em;
+  -webkit-border-radius: 4px;
+}
+
+.newsletter .submit {
+  border: 1px solid #FFF;
+  background: #FFF;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 4px;
+}
+
+.newsletter p {
+  font-size: 1.4em;
+  margin: 0.25em 0;
+  
+}
+
+.footer {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.2em;
+  padding: 1.8em 0 0 0;
+}
