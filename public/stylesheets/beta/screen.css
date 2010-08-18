@@ -10,12 +10,12 @@ body {
   font-variant: normal;
   font-style: normal;
   font-weight: normal;
-  font-family: "ff-dagny-web-pro-1","ff-dagny-web-pro-2", "arial", "helvetica", "arial", "sans-serif";
+  font-family: "helvetica", "arial", "sans-serif";
   background: #FEFFFE;
   color: #333;
 }
 
-h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; }
+h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; color:#374754; }
 
 h1 { font-size: 2.2em; margin-bottom: 1em; }
 
@@ -39,7 +39,7 @@ a:focus, a:hover { text-decoration: underline; }
 
 #sitoi {
   margin: 0 auto;
-  padding: 6.6em 2em 0 2em;
+  padding: 4.4em 2em 0 2em;
   width: 94em;
   background: url(/images/beta/logo.png) 2em 0 no-repeat;
 }
@@ -58,6 +58,15 @@ a:focus, a:hover { text-decoration: underline; }
   background: url(/images/beta/tutorial.png) 0 0 no-repeat;
 }
 
+.aside span {
+  font-size: 0.8em;
+  color: #FFF;
+  background: #B6261A;
+  padding: 0.3em 0.5em;
+  margin-right: 0.6em;
+  -webkit-border-radius: 20px;
+}
+
 .aside p {
   font-size: 1.4em;
   margin-bottom: 2.4em;
@@ -70,8 +79,8 @@ a:focus, a:hover { text-decoration: underline; }
   width: 30em;
   margin-top: 44em;
   padding: 1.68em 2em 1.68em 14em;
-  background: url(/images/beta/newsletter.png) 0 0 no-repeat;
-  background-color: #90CFDD;
+  /*background: url(/images/beta/newsletter.png) 0 0 no-repeat;*/
+  background-color: #EEE;
   -webkit-border-radius: 4px;
 }
 
