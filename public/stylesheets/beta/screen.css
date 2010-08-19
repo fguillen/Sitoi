@@ -12,7 +12,7 @@ body {
   font-weight: normal;
   font-family: "helvetica", "arial", "sans-serif";
   background: #FEFFFE;
-  color: #333;
+  color: #35342D;
 }
 
 h1, h2 { 
@@ -42,7 +42,7 @@ a:focus, a:hover { text-decoration: underline; }
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  padding: 7.2em 2em 0 2em;  
+  padding: 7.2em 4em 0 4em;  
   width: 94em;
   /*background: url(/images/beta/logo.png) 2em 0 no-repeat;*/
 }
@@ -54,7 +54,7 @@ a:focus, a:hover { text-decoration: underline; }
 
 .section {
   float: left;
-  width: 46em;
+  width: 44em;
 }
 
 .section p {
@@ -66,6 +66,7 @@ a:focus, a:hover { text-decoration: underline; }
   display: block;
   overflow: hidden;
   width: 46em;
+  background: url(/images/beta/sneak.png) no-repeat;
 }
 
 .step {
@@ -83,18 +84,19 @@ a:focus, a:hover { text-decoration: underline; }
 .step span {
   font-size: 0.8em;
   color: #FFF;
-  background: #CCC;
+  background: #CE3A31;
   padding: 0.3em 0.5em;
   margin-right: 0.6em;
   -webkit-border-radius: 20px;
 }
 
 .newsletter {
+  color: #DDD;
   display: block;
   overflow: hidden;
   margin-top: 2.4em;
   padding: 2.6em 14.4em 2.2em 2.6em;
-  background-color: #EEE;
+  background: #182222;
   -webkit-border-radius: 4px;
 }
 
@@ -103,7 +105,7 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .newsletter .text {
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(255,255,255,0.08);
   border: 1px solid rgba(0,0,0,0.05);
   padding: 0.48em;
   font-size: 0.9em;
@@ -113,11 +115,12 @@ a:focus, a:hover { text-decoration: underline; }
   -webkit-border-radius: 4px;
 }
 
-.newsletter input::-webkit-input-placeholder { color: rgba(255,255,255,0.75); }
+.newsletter input::-webkit-input-placeholder { color: rgba(255,255,255,1); }
 
 .newsletter .submit {
-  border: 1px solid #FFF;
-  background: #FFF;
+  color: #FFF;
+  border: 1px solid #303030;
+  background: rgba(255,255,255,0.05);
   font-size: 0.9em;
   padding: 0.5em 1em;
   -webkit-border-radius: 4px;
