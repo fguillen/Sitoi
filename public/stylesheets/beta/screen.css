@@ -43,8 +43,7 @@ a:focus, a:hover { text-decoration: underline; }
   overflow: hidden;
   margin: 0 auto;
   padding: 7.2em 4em 0 4em;  
-  width: 94em;
-  /*background: url(/images/beta/logo.png) 2em 0 no-repeat;*/
+  width: 96em;
 }
 
 .content {
@@ -55,17 +54,20 @@ a:focus, a:hover { text-decoration: underline; }
 .section {
   float: left;
   width: 44em;
+  padding-bottom: 42em;
+  background: url(/images/beta/logo.png) 0 16em no-repeat;
 }
 
 .section p {
   font-size: 1.8em;
+  width: 20em;
 }
 
 .aside {
   float: right;
   display: block;
   overflow: hidden;
-  width: 46em;
+  width: 44em;
   background: url(/images/beta/sneak.png) no-repeat;
 }
 
@@ -94,10 +96,10 @@ a:focus, a:hover { text-decoration: underline; }
 .newsletter {
   display: block;
   overflow: hidden;
-  margin-top: 2.4em;
-  padding: 2em 14.4em 2em 2em;
+  margin-top: 2em;
+  padding: 2em 12em 2em 2em;
   border: 3px solid #A8211E;
-  background: #D13834 url(/images/beta/newsletter.png) 34em 3em no-repeat;
+  background: #D13834 url(/images/beta/newsletter.png) 33em 3em no-repeat;
   -webkit-border-radius: 8px;
 }
 
@@ -116,7 +118,7 @@ a:focus, a:hover { text-decoration: underline; }
   border: 2px solid #81090E;
   padding: 0.5em;
   font-size: 0.9em;
-  width: 12.2em;
+  width: 12em;
   margin-right: 0.4em;
   color: #FFF;
   -webkit-border-radius: 5px;
@@ -146,13 +148,13 @@ a:focus, a:hover { text-decoration: underline; }
   display: block;
   overflow: hidden;
   text-align: center;
-  margin-top: 2.2em;
+  margin-top: 2em;
 }
 
 .footer p {
   color: #CCC;
   font-size: 1.2em;
-  margin: 1.8em 0 0.1em 0;
+  margin-top: 2.2em;
 }
 
 .footer a {
