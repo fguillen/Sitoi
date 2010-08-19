@@ -79,6 +79,7 @@ a:focus, a:hover { text-decoration: underline; }
   line-height:1.42em;
   font-size: 1.6em;
   margin: 0.8em 0 2.34em 0;
+  color: #666;
 }
 
 .step span {
@@ -91,19 +92,19 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .newsletter {
-  color: #FFF;
   display: block;
   overflow: hidden;
   margin-top: 2.4em;
-  padding: 2.6em 14.4em 2.2em 2.6em;
-  background: #D13834;
-  -webkit-border-radius: 8px;
+  padding: 2em 14.4em 2em 2em;
   border: 3px solid #A8211E;
+  background: #D13834 url(/images/beta/newsletter.png) 34em 3em no-repeat;
+  -webkit-border-radius: 8px;
 }
 
 .newsletter p {
-  text-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
+  color: #FFF;
   font-weight: bold;
+  text-shadow: #A8211E 0px 1px 1px;
 }
 
 .newsletter form {
@@ -111,25 +112,33 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .newsletter .text {
-  background-color: rgba(0,0,0,0.25);
-  border: 2px solid rgba(0,0,0,0.05);
-  padding: 0.48em;
+  background-color: #871D1B;
+  border: 2px solid #81090E;
+  padding: 0.5em;
   font-size: 0.9em;
-  width: 12em;
+  width: 12.2em;
   margin-right: 0.4em;
   color: #FFF;
-  -webkit-border-radius: 4px;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: #81090E 1px 1px 1px inset;
 }
 
-.newsletter input::-webkit-input-placeholder { color: rgba(255,255,255,1); }
+.newsletter input::-webkit-input-placeholder { color: #DE4642; }
 
 .newsletter .submit {
   color: #FFF;
-  border: 1px solid #303030;
-  background: rgba(255,255,255,0.05);
-  font-size: 0.9em;
+  font-weight: bold;
+  background-color: #E74945;
+  font-size: 1em;
   padding: 0.5em 1em;
-  -webkit-border-radius: 4px;
+  border: 3px solid #A8211E;
+  text-shadow: #A8211E 0px 1px 1px;
+  font-family: "helvetica", "arial", "sans-serif";
+  -webkit-border-radius: 20px;
+}
+
+.newsletter .submit:active {
+  background-color: #871D1B;
 }
 
 .footer {
@@ -143,9 +152,15 @@ a:focus, a:hover { text-decoration: underline; }
 .footer p {
   color: #CCC;
   font-size: 1.2em;
-  margin: 2.1em 0 0.1em 0;
+  margin: 1.8em 0 0.1em 0;
 }
 
 .footer a {
   color: #CCC;
 }
+
+.footer a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
