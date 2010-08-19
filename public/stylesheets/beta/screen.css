@@ -5,7 +5,7 @@ html { font-size:100.01%; }
 
 body {
   font-size: 62.5%;
-  line-height: 2.2em;
+  line-height: 2.4em;
   font-size: x-small;
   font-variant: normal;
   font-style: normal;
@@ -15,15 +15,18 @@ body {
   color: #333;
 }
 
-h1, h2, h3 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; color:#374754; }
+h1, h2, h3 { 
+  font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; 
+  font-weight: bold; 
+}
 
-h1 { font-size: 2.2em; margin-bottom: 1em; }
+h1 { font-size: 2.2em; margin-bottom: 0.6em; }
 
-h2 { font-size: 1.8em; margin: 0.66em 0; }
+h2 { font-size: 2em; margin-bottom: 1.2em; }
 
-h3 { font-size: 2em; margin: 1.2em 0; }
+h3 { font-size: 1.8em; }
 
-p, ul, ol { font-size: 1.8em; margin: 0; }
+p, ul, ol { font-size: 1.6em; }
 
 strong { font-weight: bold; }
 
@@ -33,59 +36,71 @@ form, fieldset { display: block; }
 
 label { font-weight: bold; display: block; }
 
-a { color: #B00929; font-weight: bold; text-decoration: none; }
+a { color: #666; font-weight: bold; text-decoration: none; }
 
 a:focus, a:hover { text-decoration: underline; }
 
 #sitoi {
+  display: block;
+  overflow: hidden;
   margin: 0 auto;
-  padding: 4.4em 2em 0 2em;
+  padding: 7.2em 2em 0 2em;
   width: 94em;
-  background: url(/images/beta/logo.png) 2em 0 no-repeat;
+  /*background: url(/images/beta/logo.png) 2em 0 no-repeat;*/
 }
 
 .content {
+  display: block;
+  overflow: hidden;
+}
+
+.section {
+  float: left;
+  width: 46em;
+  padding-top: 44.2em;
+}
+
+.section p {
+  font-size: 1.8em;
+}
+
+.aside {
   float: right;
   display: block;
   overflow: hidden;
   width: 46em;
 }
 
-.aside {
+.step {
+  display: block;
   overflow: hidden;
   padding-left: 14em;
-  margin: 2.2em 0 -3em 0;
-  background: url(/images/beta/tutorial.png) 0 0 no-repeat;
 }
 
-.aside span {
+.step p { 
+  margin: 0.8em 0 2.2em 0; 
+}
+
+.step span {
   font-size: 0.8em;
   color: #FFF;
-  background: #B6261A;
+  background: #CCC;
   padding: 0.3em 0.5em;
   margin-right: 0.6em;
   -webkit-border-radius: 20px;
 }
 
-.aside p {
-  font-size: 1.4em;
-  margin-bottom: 2.4em;
-}
-
 .newsletter {
-  float: left; 
   display: block;
   overflow: hidden;
-  width: 30em;
-  margin-top: 44em;
-  padding: 1.68em 2em 1.68em 14em;
-  /*background: url(/images/beta/newsletter.png) 0 0 no-repeat;*/
+  padding: 1.9em 14.4em 1.9em 2.6em;
   background-color: #EEE;
+  margin-top: 2.4em;
   -webkit-border-radius: 4px;
 }
 
 .newsletter form {
-  margin: 1.72em 0 0 0;
+  margin: 2em 0 0 0;
 }
 
 .newsletter .text {
@@ -112,7 +127,6 @@ a:focus, a:hover { text-decoration: underline; }
 .newsletter p {
   font-size: 1.4em;
   margin: 0.25em 0;
-  
 }
 
 .footer {
@@ -123,6 +137,11 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .footer p {
+  color: #CCC;
   font-size: 1.2em;
-  padding: 1.8em 0 0 0;
+  margin: 2.1em 0 0.1em 0;
+}
+
+.footer a {
+  color: #CCC;
 }
