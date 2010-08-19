@@ -15,18 +15,16 @@ body {
   color: #333;
 }
 
-h1, h2, h3 { 
+h1, h2 { 
   font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; 
   font-weight: bold; 
 }
 
 h1 { font-size: 2.2em; margin-bottom: 0.6em; }
 
-h2 { font-size: 2em; margin-bottom: 1.2em; }
+h2 { font-size: 1.8em; }
 
-h3 { font-size: 1.8em; }
-
-p, ul, ol { font-size: 1.6em; }
+p, ul, ol { font-size: 1.4em; }
 
 strong { font-weight: bold; }
 
@@ -44,7 +42,7 @@ a:focus, a:hover { text-decoration: underline; }
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  padding: 7.2em 2em 0 2em;
+  padding: 7.2em 2em 0 2em;  
   width: 94em;
   /*background: url(/images/beta/logo.png) 2em 0 no-repeat;*/
 }
@@ -57,7 +55,6 @@ a:focus, a:hover { text-decoration: underline; }
 .section {
   float: left;
   width: 46em;
-  padding-top: 44.2em;
 }
 
 .section p {
@@ -78,7 +75,9 @@ a:focus, a:hover { text-decoration: underline; }
 }
 
 .step p { 
-  margin: 0.8em 0 2.2em 0; 
+  line-height:1.42em;
+  font-size: 1.6em;
+  margin: 0.8em 0 2.34em 0;
 }
 
 .step span {
@@ -93,14 +92,14 @@ a:focus, a:hover { text-decoration: underline; }
 .newsletter {
   display: block;
   overflow: hidden;
-  padding: 1.9em 14.4em 1.9em 2.6em;
-  background-color: #EEE;
   margin-top: 2.4em;
+  padding: 2.6em 14.4em 2.2em 2.6em;
+  background-color: #EEE;
   -webkit-border-radius: 4px;
 }
 
 .newsletter form {
-  margin: 2em 0 0 0;
+  margin: 1.72em 0 0 0;
 }
 
 .newsletter .text {
@@ -124,16 +123,12 @@ a:focus, a:hover { text-decoration: underline; }
   -webkit-border-radius: 4px;
 }
 
-.newsletter p {
-  font-size: 1.4em;
-  margin: 0.25em 0;
-}
-
 .footer {
   clear: both;
   display: block;
   overflow: hidden;
   text-align: center;
+  margin-top: 2.2em;
 }
 
 .footer p {
