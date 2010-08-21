@@ -1,5 +1,18 @@
-@import "reset.css";
 @import "grid.css";
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, 
+p, a, ol, ul, li, fieldset, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+*:focus { outline: none; }
 
 html { font-size:100.01%; }
 
@@ -11,158 +24,32 @@ body {
   font-style: normal;
   font-weight: normal;
   font-family: "helvetica", "arial", "sans-serif";
-  background: #FEFFFE;
+  background: #FFF;
   color: #35342D;
 }
 
-h1, h2 { 
-  font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; 
-  font-weight: bold; 
-}
-
-h1 { font-size: 2.2em; margin-bottom: 0.6em; }
-
-h2 { font-size: 1.8em; }
-
+h1, h2 { font-family: "ff-enzo-web-1", "ff-enzo-web-2", "helvetica", "arial", "sans-serif"; font-weight: bold; }
+h1 { font-size: 2.2em; }
+h2 { font-size: 1.8em; margin-bottom: -0.2em; }
+h2 span { font-size: 0.8em; color: #FFF; background: #1C5588; padding: 0.3em 0.5em; margin-right: 0.6em; -webkit-border-radius: 20px; }
 p, ul, ol { font-size: 1.4em; }
-
 strong { font-weight: bold; }
-
 em { font-style: italic; }
-
 form, fieldset { display: block; }
-
 label { font-weight: bold; display: block; }
-
-a { color: #666; font-weight: bold; text-decoration: none; }
-
+a { color: #1C5588; font-weight: bold; text-decoration: none; }
 a:focus, a:hover { text-decoration: underline; }
 
-#sitoi {
-  display: block;
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 7.2em 4em 0 4em;  
-  width: 96em;
-}
-
-.content {
-  display: block;
-  overflow: hidden;
-}
-
-.section {
-  float: left;
-  width: 44em;
-  padding-bottom: 42em;
-  background: url(/images/beta/logo.png) 0 16em no-repeat;
-}
-
-.section p {
-  font-size: 1.8em;
-  width: 20em;
-}
-
-.aside {
-  float: right;
-  display: block;
-  overflow: hidden;
-  width: 44em;
-  background: url(/images/beta/sneak.png) no-repeat;
-}
-
-.step {
-  display: block;
-  overflow: hidden;
-  padding-left: 14em;
-}
-
-.step p { 
-  line-height:1.42em;
-  font-size: 1.6em;
-  margin: 0.8em 0 2.34em 0;
-  color: #666;
-}
-
-.step span {
-  font-size: 0.8em;
-  color: #FFF;
-  background: #AEC163;
-  padding: 0.3em 0.5em;
-  margin-right: 0.6em;
-  -webkit-border-radius: 20px;
-}
-
-.newsletter {
-  display: block;
-  overflow: hidden;
-  margin-top: 2em;
-  padding: 2em 12em 2em 2em;
-  border: 3px solid #A8211E;
-  background: #D13834 url(/images/beta/newsletter.png) 33em 3em no-repeat;
-  -webkit-border-radius: 8px;
-}
-
-.newsletter p {
-  color: #FFF;
-  font-weight: bold;
-  text-shadow: #A8211E 0px 1px 1px;
-}
-
-.newsletter form {
-  margin: 1.72em 0 0 0;
-}
-
-.newsletter .text {
-  background-color: #871D1B;
-  border: 2px solid #81090E;
-  padding: 0.5em;
-  font-size: 0.9em;
-  width: 12em;
-  margin-right: 0.4em;
-  color: #FFF;
-  -webkit-border-radius: 5px;
-  -webkit-box-shadow: #81090E 1px 1px 1px inset;
-}
-
-.newsletter input::-webkit-input-placeholder { color: #DE4642; }
-
-.newsletter .submit {
-  color: #FFF;
-  font-weight: bold;
-  background-color: #E74945;
-  font-size: 1em;
-  padding: 0.5em 1em;
-  border: 3px solid #A8211E;
-  text-shadow: #A8211E 0px 1px 1px;
-  font-family: "helvetica", "arial", "sans-serif";
-  -webkit-border-radius: 20px;
-}
-
-.newsletter .submit:active {
-  background-color: #871D1B;
-}
-
-.footer {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  text-align: center;
-  margin-top: 2em;
-}
-
-.footer p {
-  color: #CCC;
-  font-size: 1.2em;
-  margin-top: 2.2em;
-}
-
-.footer a {
-  color: #CCC;
-}
-
-.footer a:hover {
-  color: #666;
-  text-decoration: none;
-}
-
+#sitoi, .content, .section, .aside, .footer { display: block; overflow: hidden; }
+#sitoi { margin: 0 auto; width: 94em; padding-top: 7.2em; }
+.section { float: right; width: 44em; }
+.section p { font-size: 1.6em; margin: 0.75em 0; }
+.item { padding: 1.28em 0; padding-left: 14em; }
+#step-1 { margin-top: 3.4em; background: url(/images/beta/step-01.png) no-repeat; }
+#step-2 { background: url(/images/beta/step-02.png) 0 0.28em no-repeat; }
+#step-3 { background: url(/images/beta/step-03.png) no-repeat; }
+.aside { float: left; background:#F5F5F5; margin-top: 33.6em; width: 30em; padding: 2.4em 2em 2.4em 12em; -webkit-border-radius: 12px; }
+.aside form { margin-top: 2.4em; }
+.aside form .text { width: 16em; margin-right: 1em; }
+.footer { clear: both; margin-top: 2.5em; text-align: center; border-top: 1px solid #EEE; }
+.footer p { font-size: 1.2em; padding: 2em 0; }
