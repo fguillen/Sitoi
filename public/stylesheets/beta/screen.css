@@ -48,8 +48,12 @@ a:focus, a:hover { text-decoration: underline; }
 #step-1 { margin-top: 3.4em; background: url(/images/beta/step-01.png) no-repeat; }
 #step-2 { background: url(/images/beta/step-02.png) 0 0.28em no-repeat; }
 #step-3 { background: url(/images/beta/step-03.png) no-repeat; }
-.aside { float: left; background:#F5F5F5; margin-top: 33.6em; width: 30em; padding: 2.4em 2em 2.4em 12em; -webkit-border-radius: 12px; }
+.aside { float: left; background: #F5F5F5; margin-top: 33.6em; width: 30em; padding: 2.4em 2em 2.4em 12em; border: 3px solid #EEE; -webkit-border-radius: 12px; }
+.aside p { color: #555; }
 .aside form { margin-top: 2.4em; }
-.aside form .text { width: 16em; margin-right: 1em; }
+.aside form .text { width: 13em; margin-right: 0.5em; font-size: 0.9em; padding: 0.25em; }
+.aside form .submit { background: #FFF; border: 3px solid #E1E1E1; padding: 0.5em 1.2em; -webkit-border-radius: 20px; font-family: "helvetica", "arial", "sans-serif"; font-size: 0.9em; color: #555; font-weight: bold; }
 .footer { clear: both; margin-top: 2.5em; text-align: center; border-top: 1px solid #EEE; }
-.footer p { font-size: 1.2em; padding: 2em 0; }
+.footer p { font-size: 1.2em; padding: 2em 0; color: #999; }
+.footer a { color: #999; }
+.footer a:hover { color: #1C5588; }
