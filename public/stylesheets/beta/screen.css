@@ -28,7 +28,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-family: "helvetica", "arial", "sans-serif";
-  background: #FFF;
+  background: #F4F4F4;
   color: #35342D;
 }
 
@@ -48,9 +48,14 @@ form, fieldset {
   display: block;
 }
 
+fieldset {
+  margin-top: 2em;
+}
+
 label {
   font-weight: bold;
   display: block;
+  margin-right: 0.8em;
 }
 
 a {
@@ -65,51 +70,56 @@ a:focus, a:hover {
 
 sup { vertical-align: baseline; }
 
-#sitoi { width: 100%; }
-
-hgroup {
-  background: #4e575c url(/images/beta/header.png) center 12em no-repeat;
-  color: #fff;
-  width: 100%;
-  height: 41.3em;
-  margin-bottom: 3.6em;
-  text-align: center;
+#sitoi {
+  width: 60em;
+  padding: 0em 5em;
+  margin: 0 auto;
+  margin-top: 2.4em;
   overflow: hidden;
 }
 
-hgroup h1 {
-  margin-top: 3.4em;
-  font-weight: bold;
+hgroup {
+  margin-bottom: 2.2em;
 }
 
-hgroup h2 {
-  font-size: 1.2em;
+nav {
+  float: right;
 }
 
-hgroup img {
-  margin-top: 3em;
+nav ul {
+  margin-top: 0.4em;
+  list-style-type: none;
 }
 
-.about, footer {
-  margin: 0 auto;
-  width: 46em;
+nav li {
+  float: left;
+  margin-left: 1.5em;
 }
 
-.newsletter {
-  margin: 0 auto;
-  width: 42em;
+nav a {
+  display: block;
+  background: #EEE;
+  padding: 0.4em 1em;
 }
 
-.about h1 {
+.content {
+  padding: 0 6em;
+  padding-top: 35.6em;
+  background: #FFF url(/images/beta/header.png) center 0 no-repeat;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: #EFEFEF 2px 2px 0px;
+}
+
+.content h1 {
   font-weight: bold;
   font-size: 1.8em;
   margin-bottom: 0.8em;
 }
 
-.steps {
+.tutorial {
   background: url(/images/beta/icons.png) 2em 0.5em no-repeat;
-  margin: 4.2em 0 2.2em 0;
   overflow: hidden;
+  margin-top: 3.2em;
 }
 
 .step {
@@ -125,9 +135,9 @@ hgroup img {
 }
 
 .step h2 span {
-  color: #fff;
+  color: #FFF;
   font-size: 0.8em;
-  background: #a5d15c;
+  background: #CC512B;
   padding: 0.3em 0.6em;
   margin-right: 0.48em;
   vertical-align: baseline;
@@ -135,9 +145,10 @@ hgroup img {
 }
 
 .newsletter {
-  background: #f0f0f0;
-  border-top: 1px solid #ddd;
-  padding: 2.4em;
+  padding-top: 3.4em;
+  padding-bottom: 5.2em;
+  border-top: 1px dashed #ddd;
+  background: #FFF;
 }
 
 .newsletter h1 {
@@ -146,26 +157,20 @@ hgroup img {
   margin-bottom: 0.6em;
 }
 
-.newsletter fieldset {
-  margin: 2em 0 0.6em 0;
-}
-
 .newsletter label {
   display: inline;
-  margin-right: 0.6em;
-  margin-left: 1.4em;
 }
 
 .newsletter .text {
   font-size: 1em;
   padding: 0.3em;
   width: 200px;
-  margin-right: 0.6em;
+  margin-right: 0.8em;
 }
 
 .newsletter .submit {
   font-size: 1em;
-  padding: 0.38em 0.6em;
+  padding: 0.32em 0.6em 0.4em 0.6em;
   background: #d6532f;
   -webkit-border-radius: 4px;
   border: none;
@@ -173,8 +178,8 @@ hgroup img {
 }
 
 footer p {
-  text-align: center;
   color: #999;
-  font-size: 1.2em;
-  margin: 3.8em 0 1.8em 0;
+  text-align: center;
+  font-size: 1.1em;
+  margin: 2em 0;
 }
