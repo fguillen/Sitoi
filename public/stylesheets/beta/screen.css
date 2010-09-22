@@ -93,12 +93,10 @@ nav ul {
 
 nav li {
   float: left;
-  margin-left: 1.5em;
 }
 
 nav a {
   display: block;
-  background: #EEE;
   padding: 0.4em 1em;
 }
 
